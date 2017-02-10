@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		013DA08E1E4DE9A7000A64D8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 013DA08D1E4DE9A7000A64D8 /* main.c */; };
+		013DA0991E4DE9C3000A64D8 /* entry.c in Sources */ = {isa = PBXBuildFile; fileRef = 013DA0941E4DE9C3000A64D8 /* entry.c */; };
+		013DA09A1E4DE9C3000A64D8 /* serial.c in Sources */ = {isa = PBXBuildFile; fileRef = 013DA0961E4DE9C3000A64D8 /* serial.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,11 @@
 
 /* Begin PBXFileReference section */
 		013DA08A1E4DE9A7000A64D8 /* CSerialize */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSerialize; sourceTree = BUILT_PRODUCTS_DIR; };
-		013DA08D1E4DE9A7000A64D8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		013DA0941E4DE9C3000A64D8 /* entry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entry.c; sourceTree = "<group>"; };
+		013DA0951E4DE9C3000A64D8 /* inttypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inttypes.h; sourceTree = "<group>"; };
+		013DA0961E4DE9C3000A64D8 /* serial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = serial.c; sourceTree = "<group>"; };
+		013DA0971E4DE9C3000A64D8 /* serial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serial.h; sourceTree = "<group>"; };
+		013DA0981E4DE9C3000A64D8 /* stdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdint.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,11 @@
 		013DA08C1E4DE9A7000A64D8 /* CSerialize */ = {
 			isa = PBXGroup;
 			children = (
-				013DA08D1E4DE9A7000A64D8 /* main.c */,
+				013DA0941E4DE9C3000A64D8 /* entry.c */,
+				013DA0951E4DE9C3000A64D8 /* inttypes.h */,
+				013DA0961E4DE9C3000A64D8 /* serial.c */,
+				013DA0971E4DE9C3000A64D8 /* serial.h */,
+				013DA0981E4DE9C3000A64D8 /* stdint.h */,
 			);
 			path = CSerialize;
 			sourceTree = "<group>";
@@ -119,7 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				013DA08E1E4DE9A7000A64D8 /* main.c in Sources */,
+				013DA0991E4DE9C3000A64D8 /* entry.c in Sources */,
+				013DA09A1E4DE9C3000A64D8 /* serial.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
