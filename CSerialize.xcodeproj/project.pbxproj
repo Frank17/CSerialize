@@ -30,6 +30,8 @@
 		013DA0961E4DE9C3000A64D8 /* serial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = serial.c; sourceTree = "<group>"; };
 		013DA0971E4DE9C3000A64D8 /* serial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serial.h; sourceTree = "<group>"; };
 		013DA0981E4DE9C3000A64D8 /* stdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdint.h; sourceTree = "<group>"; };
+		013DA09B1E4DEE4B000A64D8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		013DA09C1E4DEE4B000A64D8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,8 @@
 			children = (
 				013DA08C1E4DE9A7000A64D8 /* CSerialize */,
 				013DA08B1E4DE9A7000A64D8 /* Products */,
+				013DA09B1E4DEE4B000A64D8 /* LICENSE */,
+				013DA09C1E4DEE4B000A64D8 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,6 +260,7 @@
 				013DA0931E4DE9A7000A64D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
